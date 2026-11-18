@@ -672,3 +672,114 @@ may consider it more useful to permit linking proprietary applications with
 the library.  If this is what you want to do, use the GNU Lesser General
 Public License instead of this License.  But first, please read
 <https://www.gnu.org/licenses/why-not-lgpl.html>.
+
+
+
+AI‑USE RESTRICTION ADDENDUM, Version 1.0
+
+This Addendum imposes additional conditions restricting certain uses of the
+Licensed Work in connection with Artificial Intelligence systems. When properly
+attached or referenced by the Licensor, this Addendum forms part of the license
+terms governing the Licensed Work.
+
+0. DEFINITIONS
+
+0.1 "Licensed Work" means the software, source code, object code, documentation,
+data, and other copyrightable materials to which this Addendum is attached or
+with which it is distributed, and any portion thereof.
+
+0.2 "AI System" means:
+
+(a) a machine‑based system designed to operate with varying levels of autonomy
+and that may exhibit adaptiveness after deployment, and that, for explicit or
+implicit objectives, infers, from the input it receives, how to generate outputs
+such as predictions, content, recommendations, or decisions that can influence
+physical or virtual environments; and
+
+(b) any system, model, or component commonly described as artificial
+intelligence, machine learning, deep learning, neural networks, large language
+models (LLMs), foundation models, multimodal models, or general‑purpose AI
+models, whether accessed locally or remotely, including as weights, parameters,
+embeddings, adapters, model artifacts, hosted services, APIs, SDKs, or
+endpoints.
+
+0.3 "AI Service" means any hosted, cloud, remote, or third‑party service
+(including via API, SDK, or endpoint) that provides access to or functionality
+of an AI System, including inference, content generation, ranking,
+recommendations, classification, clustering, detection, scoring, or decision
+support.
+
+0.4 "AI‑Enabled Product or Service" means any software, product, system, or
+service—whether external‑facing or internal‑only—that:
+
+(a) uses, invokes, calls, integrates with, depends upon, or is designed to
+operate in conjunction with any AI System or AI Service; or
+
+(b) provides, enables, or materially supports AI‑based functionality (including
+generation of text, code, images, audio, video, predictions, recommendations,
+classifications, or decisions), regardless of whether the AI System is embedded
+locally, linked, bundled, containerized, or accessed remotely through an AI
+Service.
+
+0.5 "Train" or "Training" means any use of the Licensed Work (or any Derivative
+Works) as input, in whole or in part, to develop, improve, tune, calibrate,
+validate, test, benchmark, evaluate, or otherwise adjust or assess an AI System
+or any component thereof, including without limitation: pre‑training, fine‑
+tuning, instruction tuning, reinforcement learning (including RLHF),
+distillation, embedding/representation learning, gradient updates, parameter
+estimation, model selection, hyperparameter optimization, synthetic data
+generation for training, or dataset curation performed for any of the foregoing
+purposes.
+
+0.6 "Derivative Works" means any work based on or derived from the Licensed Work
+under applicable copyright law, including modifications, translations,
+adaptations, or combinations containing non‑trivial portions of the Licensed
+Work.
+
+0.7 "Use" includes (without limitation) to access, run, execute, process, copy,
+reproduce, distribute, transmit, host, publish, display, perform, modify, create
+derivative works of, integrate, link, compile, bundle, embed, or otherwise
+exploit the Licensed Work, whether directly or indirectly, and whether for
+internal purposes, for third parties, or for external deployment.
+
+1. PROHIBITED USES (CONDITIONS OF LICENSE)
+
+1.1 NO TRAINING. You must not Train, and must not permit any third party to
+Train, any AI System using the Licensed Work or any Derivative Works, in whole
+or in part.
+
+1.2 NO AI‑ENABLED USE (INCLUDING INTERNAL USE AND API USE). You must not Use,
+and must not permit any third party to Use, the Licensed Work or any Derivative
+Works as part of, in connection with, or for the benefit of any AI‑Enabled
+Product or Service. This prohibition includes, without limitation:
+
+(a) incorporating, linking, compiling, bundling, embedding, distributing,
+deploying, or hosting the Licensed Work within an AI‑Enabled Product or Service;
+
+(b) using the Licensed Work in any product or service (including internal‑only
+tools) that calls, invokes, or otherwise uses an AI Service (including any LLM
+API), whether or not the AI System is hosted by You or a third party; and
+
+(c) using the Licensed Work to enable, support, enhance, or provide
+functionality to an AI System or AI Service, including middleware, plugins,
+connectors, adapters, prompt orchestration, retrieval‑augmented generation (RAG)
+components, agent frameworks, classifiers, recommenders, ranking systems, or
+inference pipelines.
+
+1.3 NO CIRCUMVENTION / NOTICE REMOVAL. You must not remove, obscure, or alter
+licensing, provenance, or rights‑reservation notices intended to communicate the
+restrictions of this Addendum.
+
+2. TERMINATION
+
+2.1 AUTOMATIC TERMINATION. Any violation of Section 1 immediately and
+automatically terminates any license granted to You in the Licensed Work (in
+addition to any other remedies available to the Licensor).
+
+3. DOWNSTREAM NOTICE
+
+3.1 REDISTRIBUTION. Any redistribution of the Licensed Work or Derivative Works
+must include this Addendum or a URL to the canonical text of this Addendum, in a
+manner reasonably calculated to provide notice to recipients.
+
+END OF ADDENDUM
